@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Data Portfolio</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
+      margin: 0;
+      background: #f8fafc;
+      color: #0f172a;
+      line-height: 1.6;
+    }
+    header {
+      padding: 4rem 2rem;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      text-align: center;
+    }
+    header h1 { font-size: 3rem; margin-bottom: .5rem; }
+    header p { font-size: 1.2rem; opacity: .9; }
+    .links a {
+      margin: 0 .5rem;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 { font-size: 2rem; margin-bottom: 1.5rem; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: 0 10px 25px rgba(0,0,0,.08);
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 35px rgba(0,0,0,.12);
+    }
+    .card h3 { margin-top: 0; }
+    .tools { font-size: .9rem; color: #475569; }
+    .card a {
+      display: inline-block;
+      margin-top: .75rem;
+      color: #2563eb;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .skills span {
+      display: inline-block;
+      background: #e2e8f0;
+      padding: .4rem .7rem;
+      border-radius: 999px;
+      margin: .25rem;
+      font-size: .9rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Your Name</h1>
+  <p>Data Analyst | Excel • Python • SQL • R</p>
+  <div class="links">
+    <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+    <a href="resume.pdf" target="_blank">Resume</a>
+  </div>
+</header>
+
+<section>
+  <h2>Projects</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>Sales Performance Dashboard</h3>
+      <p class="tools">Excel • SQL • Power BI</p>
+      <p>Built an interactive dashboard analyzing revenue trends, customer classes, and weekly sales goals.</p>
+      <a href="#">View Project</a>
+    </div>
+
+    <div class="card">
+      <h3>Blackjack Simulation</h3>
+      <p class="tools">Python • Pandas • Matplotlib</p>
+      <p>Simulated 10,000 blackjack games to compare player strategies and expected value.</p>
+      <a href="#">View Code</a>
+    </div>
+
+    <div class="card">
+      <h3>Customer Segmentation</h3>
+      <p class="tools">R • SQL</p>
+      <p>Classified customers into A–F groups based on average weekly sales using dynamic date filters.</p>
+      <a href="#">View Analysis</a>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>Excel Dashboards</span>
+    <span>Power BI</span>
+    <span>Python (pandas, matplotlib)</span>
+    <span>SQL (CTEs, Joins, Windows)</span>
+    <span>R (tidyverse)</span>
+    <span>Data Visualization</span>
+  </div>
+</section>
+
+<section>
+  <h2>About</h2>
+  <p>
+    I build data-driven tools that turn raw numbers into decisions. My focus is on
+    clean analysis, clear visuals, and practical business insight.
+  </p>
+</section>
+
+<footer>
+  © 2025 Your Name
+</footer>
+
+</body>
+</html>
