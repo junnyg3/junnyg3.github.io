@@ -13,10 +13,23 @@
       line-height: 1.6;
     }
     header {
-      padding: 4rem 2rem;
-      background: linear-gradient(135deg, #0f172a, #1e293b);
+      padding: 5rem 2rem;
+      background-image: url("images/gradient.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
       color: white;
       text-align: center;
+      position: relative;
+    }
+    header::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.45);
+    }
+    header * {
+      position: relative;
     }
     header h1 { font-size: 3rem; margin-bottom: .5rem; }
     header p { font-size: 1.2rem; opacity: .9; }
@@ -78,9 +91,9 @@
   <h1>Jonathan Garcia</h1>
   <p>Data Analyst | Excel • Python • SQL • R</p>
   <div class="links">
-    <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    <a href="https://github.com/junnyg3" target="_blank">GitHub</a>
     <a href="https://www.linkedin.com/in/jonathan-garcia-0a5b08259/" target="_blank">LinkedIn</a>
-    <a href="Jonathan_Garcia_Resume.docx-2.pdf" target="_blank">Resume</a>
+    <a href="images/Jonathan_Garcia_Resume.docx-2.pdf" target="_blank">Resume</a>
   </div>
 </header>
 
